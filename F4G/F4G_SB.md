@@ -1,4 +1,4 @@
-# FINAL FANTASY IV 改造サウンドドライバ で ROM のデータを使用して音楽を演奏するスクリプト
+# FINAL FANTASY IV 改造サウンドドライバ で音楽と圧縮波形のデータファイルを使用して音楽を演奏するスクリプト
 
 ## 概要
 [改良版 SNESAPU.DLL](https://github.com/dgrfactory/spcplay) (v2.19.0 以降) で動作するスクリプトファイルです。  
