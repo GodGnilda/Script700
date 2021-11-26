@@ -1,15 +1,15 @@
-# FINAL FANTASY IV 改造サウンドドライバ のスクリプト
+# FINAL FANTASY IV のスクリプト
 
 ## 概要
-[FINAL FANTASY IV の改造サウンドドライバ](https://github.com/GodGnilda/F4G-0) 20211122-0 以降の SPC ファイル用のスクリプトファイルです。  
+FINAL FANTASY IV の SPC ファイル用のスクリプトファイルです。  
 [改良版 SNESAPU.DLL](https://github.com/dgrfactory/spcplay) (v2.19.0 以降) で動作します。
 
 ## スクリプト一覧
-- [ROM のデータを使用して音楽を演奏するスクリプト](https://github.com/GodGnilda/Script700/blob/main/F4G/F4G_F4G.700) ([MD]([https://github.com/GodGnilda/Script700/blob/main/F4G/F4G_F4G.md))
-- [音楽と圧縮波形のデータファイルを使用して音楽を演奏するスクリプト](https://github.com/GodGnilda/Script700/blob/main/F4G/F4G_1.700) ([MD]([https://github.com/GodGnilda/Script700/blob/main/F4G/F4G_1.md))
+- [ROM のデータを使用して音楽を演奏するスクリプト](https://github.com/GodGnilda/Script700/blob/main/F4/F4_F4.700) ([MD]([https://github.com/GodGnilda/Script700/blob/main/F4/F4_F4.md))
+- [音楽と圧縮波形のデータファイルを使用して音楽を演奏するスクリプト](https://github.com/GodGnilda/Script700/blob/main/F4/F4_1.700) ([MD]([https://github.com/GodGnilda/Script700/blob/main/F4/F4_1.md))
 
 ## ファイル
-- [FINAL FANTASY IV の改造サウンドドライバ](https://github.com/GodGnilda/F4G-0) が転送された状態の SPC ファイルが必要です。  
+FINAL FANTASY IV のサウンドドライバが転送された状態の SPC ファイルが必要です。  
 スナップショットを保存せずそのまま演奏する場合は、ジングル類を演奏終了状態の SPC をお使いになることで、ノイズ発生を抑制することが可能です。
 
 ## プレイヤーの設定など
@@ -37,7 +37,7 @@
 ## 演奏開始直前のスナップショット保存
 ブレークポイントを利用可能なプレイヤーのみ保存可能です。
 - [SNES SPC700 Player](https://github.com/dgrfactory/spcplay)  
-スクリプトの `bp` コマンドを有効にし、SPC700 の PC レジスタの値が $0544 で停止している状態であることを確認後に SPC ファイルを保存してください。  
+スクリプトの `bp` コマンドを有効にし、SPC700 の PC レジスタの値が $089C で停止している状態であることを確認後に SPC ファイルを保存してください。  
 保存するタイミング次第では DSP のキーオンフラグがクリアされずにノイズが発生する場合がございます。この不具合は SPC ファイルの $1014C を $00 に書き換えることで解消可能です。
 
 ## ライセンス

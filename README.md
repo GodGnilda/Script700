@@ -38,11 +38,11 @@
 
 ## フォルダ
 - F4
-  - FINAL FANTASY IV
+  - [FINAL FANTASY IV](https://github.com/GodGnilda/Script700/tree/main/F4)
 - F4G
-  - FINAL FANTASY IV 改造サウンドドライバ
+  - [FINAL FANTASY IV 改造サウンドドライバ](https://github.com/GodGnilda/Script700/tree/main/F4G)
 - QN
-  - 新・熱血硬派くにおたちの挽歌
+  - [新・熱血硬派くにおたちの挽歌](https://github.com/GodGnilda/Script700/tree/main/QN)
 
 ## ライセンス
 [MITライセンス](https://opensource.org/licenses/mit-license.php)
